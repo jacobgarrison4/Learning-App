@@ -18,6 +18,13 @@
 		E142DBA82833660C00CA9E4F /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E142DBA72833660C00CA9E4F /* HomeViewRow.swift */; };
 		E142DBAA2835585E00CA9E4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E142DBA92835585E00CA9E4F /* ContentView.swift */; };
 		E142DBAC28355F8000CA9E4F /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E142DBAB28355F8000CA9E4F /* ContentViewRow.swift */; };
+		E1DDB61828356B4D0053463C /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DDB61728356B4D0053463C /* CodeTextView.swift */; };
+		E1DDB61A28356B5C0053463C /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DDB61928356B5C0053463C /* ContentDetailView.swift */; };
+		E1DDB61C28356B720053463C /* RectangleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DDB61B28356B720053463C /* RectangleCard.swift */; };
+		E1DDB61E28356B820053463C /* TestResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DDB61D28356B820053463C /* TestResultView.swift */; };
+		E1DDB62028356B8A0053463C /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DDB61F28356B8A0053463C /* TestView.swift */; };
+		E1DDB6242835F2BB0053463C /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1DDB6232835F2BB0053463C /* AVKit.framework */; };
+		E1DDB6262835F3EF0053463C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DDB6252835F3EF0053463C /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +40,14 @@
 		E142DBA72833660C00CA9E4F /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
 		E142DBA92835585E00CA9E4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E142DBAB28355F8000CA9E4F /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
+		E1DDB61728356B4D0053463C /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
+		E1DDB61928356B5C0053463C /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
+		E1DDB61B28356B720053463C /* RectangleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleCard.swift; sourceTree = "<group>"; };
+		E1DDB61D28356B820053463C /* TestResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResultView.swift; sourceTree = "<group>"; };
+		E1DDB61F28356B8A0053463C /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		E1DDB6212835F29F0053463C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E1DDB6232835F2BB0053463C /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		E1DDB6252835F3EF0053463C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1DDB6242835F2BB0053463C /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +67,7 @@
 			children = (
 				E117912A2832C8B600AA7BF2 /* LearningApp */,
 				E11791292832C8B600AA7BF2 /* Products */,
+				E1DDB6222835F2BA0053463C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +82,7 @@
 		E117912A2832C8B600AA7BF2 /* LearningApp */ = {
 			isa = PBXGroup;
 			children = (
+				E1DDB6212835F29F0053463C /* Info.plist */,
 				E117912B2832C8B600AA7BF2 /* LearningApp.swift */,
 				E11791392832C94000AA7BF2 /* Views */,
 				E117913A2832C94700AA7BF2 /* ViewModels */,
@@ -92,6 +110,11 @@
 				E142DBA72833660C00CA9E4F /* HomeViewRow.swift */,
 				E142DBA92835585E00CA9E4F /* ContentView.swift */,
 				E142DBAB28355F8000CA9E4F /* ContentViewRow.swift */,
+				E1DDB61728356B4D0053463C /* CodeTextView.swift */,
+				E1DDB61928356B5C0053463C /* ContentDetailView.swift */,
+				E1DDB61B28356B720053463C /* RectangleCard.swift */,
+				E1DDB61D28356B820053463C /* TestResultView.swift */,
+				E1DDB61F28356B8A0053463C /* TestView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -117,6 +140,7 @@
 			children = (
 				E11791462832D45800AA7BF2 /* data.json */,
 				E11791472832D45800AA7BF2 /* style.html */,
+				E1DDB6252835F3EF0053463C /* Constants.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -126,6 +150,14 @@
 			children = (
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E1DDB6222835F2BA0053463C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1DDB6232835F2BB0053463C /* AVKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,13 +232,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1DDB62028356B8A0053463C /* TestView.swift in Sources */,
+				E1DDB61828356B4D0053463C /* CodeTextView.swift in Sources */,
 				E117912E2832C8B600AA7BF2 /* HomeView.swift in Sources */,
 				E142DBA82833660C00CA9E4F /* HomeViewRow.swift in Sources */,
+				E1DDB61C28356B720053463C /* RectangleCard.swift in Sources */,
 				E142DBAA2835585E00CA9E4F /* ContentView.swift in Sources */,
+				E1DDB61A28356B5C0053463C /* ContentDetailView.swift in Sources */,
+				E1DDB6262835F3EF0053463C /* Constants.swift in Sources */,
 				E117912C2832C8B600AA7BF2 /* LearningApp.swift in Sources */,
 				E142DBAC28355F8000CA9E4F /* ContentViewRow.swift in Sources */,
 				E117913F2832C9D900AA7BF2 /* ContentModel.swift in Sources */,
 				E117914B2832D5AD00AA7BF2 /* Models.swift in Sources */,
+				E1DDB61E28356B820053463C /* TestResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +375,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LearningApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LearningApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -365,6 +404,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LearningApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LearningApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
